@@ -2,7 +2,7 @@ export const Header = () => {
   return (
     <div className="h-screen w-screen flex justify-center items-center">
       <img
-        className="h-full w-full object-cover"
+        className="h-screen w-screen object-cover"
         src="https://images.pexels.com/photos/260409/pexels-photo-260409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
         alt=""
       />
@@ -27,7 +27,7 @@ export const Header = () => {
           you support so you feel capable and confident.
         </p>
 
-        <button className="text-white transition-all duration-300ms cursor-pointer border-2 border-white w-[200px] h-14 rounded-[7px] text-2xl">
+        <button className="text-white transition-all duration-300ms cursor-pointer border-2 border-white w-50 h-14 rounded-[7px] text-2xl">
           Let's Start
         </button>
       </div>

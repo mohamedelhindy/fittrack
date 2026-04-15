@@ -22,7 +22,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body>
+      <body className="bg-black">
         <Header />
         <About />
       </body>
