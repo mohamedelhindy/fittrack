@@ -1,6 +1,7 @@
 import { Header } from "@/components/welcome_page/Header";
 import "./globals.css";
 import { About } from "@/components/welcome_page/About";
+import { Workout } from "@/components/welcome_page/Workout/Workout";
 
 export default function RootLayout({
   children,
@@ -10,6 +11,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>FitTrack</title>
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -22,9 +25,10 @@ export default function RootLayout({
         />
       </head>
 
-      <body className="bg-black">
+      <body className="bg-black overflow-x-hidden">
         <Header />
         <About />
+        <Workout />
       </body>
     </html>
   );
