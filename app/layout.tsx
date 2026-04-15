@@ -1,5 +1,6 @@
 import { Header } from "@/components/welcome_page/Header";
 import "./globals.css";
+import { About } from "@/components/welcome_page/About";
 
 export default function RootLayout({
   children,
@@ -23,6 +24,7 @@ export default function RootLayout({
 
       <body>
         <Header />
+        <About />
       </body>
     </html>
   );
