@@ -8,4 +8,6 @@ body {
   font-optical-sizing: auto;
   font-weight: auto;
   font-style: normal;
+
+  overflow-x: hidden;
 }
